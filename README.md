@@ -29,25 +29,31 @@ print(df)
 ```
 ![1](https://github.com/user-attachments/assets/f16d37b6-6b99-4b53-ad90-f47aca7a7622)
 
+
 ```
 df.head(10)
 ```
 ![2](https://github.com/user-attachments/assets/8d568f75-7bd3-48ad-88d2-0951ee8c8f64)
+
+
 
 ```
 df.describe()
 ```
 ![3](https://github.com/user-attachments/assets/f9f20254-bfea-4114-989f-74e61c10df38)
 
+
 ```
 df.isnull().sum()
 ```
 ![4](https://github.com/user-attachments/assets/c7983ff6-fb65-4868-aa2e-3c8268885a1b)
 
+
 ```
 df.isnull().any()
 ```
 ![5](https://github.com/user-attachments/assets/898d3418-2efe-44fa-9d5d-61e15d0f5850)
+
 
 ```
 df.dropna()
@@ -55,6 +61,7 @@ df.dropna()
 ![6](https://github.com/user-attachments/assets/53a690ab-8a40-464d-b9d2-3915fa6be35b)
 
 ```
+
 print(df.shape)
 ```
 ![7](https://github.com/user-attachments/assets/3724cb97-0628-49e3-a3d4-c82f3611d138)
@@ -63,6 +70,7 @@ print(df.shape)
 df.fillna(0)
 ```
 ![8](https://github.com/user-attachments/assets/4f311545-054d-4b1c-a9e0-dd09b33f3f7a)
+
 
 ```
 df.fillna(method='ffill')
